@@ -1,4 +1,4 @@
-# Kiko
+# README
 
 jdk's programming blog
 
