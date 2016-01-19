@@ -1,0 +1,36 @@
+# Basic
+name:               "Jdk"
+
+# URL
+#baseurl:            "/Kiko"
+#baseurl:            "" #For Root Domain
+permalink:          /:year/:month/:day/:title.html
+
+# Markdown
+markdown:           rdiscount
+
+# Navigation
+nav:
+  - name:           "Game"
+    href:           "https://www.facebook.com/socketgames/?ref=aymt_homepage_panel"
+  - name:           "feed"
+    href:           "/feed.xml"
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
