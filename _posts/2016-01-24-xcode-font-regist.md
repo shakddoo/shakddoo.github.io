@@ -8,7 +8,7 @@ categories: Exceptions
 - info.plist -> add font name to [Fonts provided by application] category
 - use below code
 
-```c++
+``` cpp
 void registFont(const string& file_name)
 {
     // get ttf file path

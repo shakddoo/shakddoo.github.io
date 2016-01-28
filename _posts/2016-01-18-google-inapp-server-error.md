@@ -9,7 +9,7 @@ categories: Exceptions
 - google api accessNotConfigured 403error 
 - The project id used to call the Google Play Developer API has not been linked in the Google Play Developer Console.
 
-```json
+``` json
 { "errors": [ { 
 "domain": "usageLimits",
 "reason": "accessNotConfigured",
