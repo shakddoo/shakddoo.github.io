@@ -7,7 +7,7 @@ name:               "Jdk"
 permalink:          /:year/:month/:day/:title.html
 
 # Markdown
-markdown:           rdiscount
+markdown:           redcarpet
 
 # Navigation
 nav:
@@ -34,3 +34,5 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+
+highlighter: pygments
