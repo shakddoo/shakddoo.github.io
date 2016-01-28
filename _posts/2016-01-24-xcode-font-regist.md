@@ -8,7 +8,7 @@ categories: Exceptions
 - info.plist -> add font name to [Fonts provided by application] category
 - use below code
 
-{% highlight c++ %}
+```c++
 void registFont(const string& file_name)
 {
     // get ttf file path
@@ -32,7 +32,7 @@ void registFont(const string& file_name)
 
     CGFontRelease(customFont);
 }
-{% endhighlight %}
+```
 
 
 #3.Xcode Bug
