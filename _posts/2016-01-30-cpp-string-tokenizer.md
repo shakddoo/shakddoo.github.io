@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "c++ string tokenizer implement"
-date:   2016-01-24 02:00:00 +0900
+date:   2016-01-30 02:38:00 +0900
 categories: c++
 ---
 #1. Implement
@@ -47,6 +47,9 @@ void main()
 
 
 Token size is 3. Result is
+
 "abc"
+
 "def"
+
 "ghi"
