@@ -4,7 +4,8 @@ name:               "shakddoo"
 # URL
 #baseurl:            "/Kiko"
 #baseurl:            "" #For Root Domain
-permalink:          /:year/:month/:day/:title.html
+url: http://shakddoo.github.io
+permalink:          /:title/
 
 # Markdown
 markdown:           redcarpet
