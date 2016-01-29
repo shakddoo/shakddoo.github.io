@@ -37,3 +37,4 @@ defaults:
       layout:       "post"
 
 highlighter: pygments
+disqus: shakddoo
