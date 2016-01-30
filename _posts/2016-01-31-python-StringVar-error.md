@@ -8,7 +8,7 @@ categories: Exceptions
 AttributeError: 'NoneType' object has no attribute '_root'
 
 
-#2. Resolution
+#2. Solution
 StringVar needs a master
 
 ``` python
