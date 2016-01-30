@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python StringVar, AttributeError: 'NoneType' object has no attribute '_root'"
+title:  "AttributeError: 'NoneType' object has no attribute '_root'"
 date:   2016-01-31 02:00:00 +0900
 categories: Exceptions
 ---
@@ -15,6 +15,7 @@ StringVar needs a master
 >>> StringVar(Tk())
 ```
 or
+
 ``` python
 >>> StringVar(Tk())
 ```
