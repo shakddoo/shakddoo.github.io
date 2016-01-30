@@ -17,5 +17,6 @@ StringVar needs a master
 or
 
 ``` python
->>> StringVar(Tk())
+>>> root = Tk()
+>>> StringVar()
 ```
