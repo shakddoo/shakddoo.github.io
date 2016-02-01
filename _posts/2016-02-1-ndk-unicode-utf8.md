@@ -5,7 +5,7 @@ date:   2016-02-01 21:34:00 +0900
 categories: c++
 ---
 #1. utf-8 to unicode
-I referenced wiki(http://en.wikipedia.org/wiki/UTF-8)
+I referenced [wiki](http://en.wikipedia.org/wiki/UTF-8)
 
 ``` cpp
 wstring Utf8ToUnicode(const string& source_str)
