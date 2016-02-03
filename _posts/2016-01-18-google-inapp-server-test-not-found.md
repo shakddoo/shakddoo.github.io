@@ -2,7 +2,8 @@
 layout: post
 title:  "Google InApp Server Test Not Found"
 date:   2016-01-18 21:00:00 +0900
-categories: Exceptions
+category: Exceptions
+tags: [InApp, Server]
 ---
 
 #1.Exceptions

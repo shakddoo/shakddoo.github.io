@@ -2,7 +2,8 @@
 layout: post
 title:  "Google Inapp Server Verification Error"
 date:   2016-01-18 20:00:00 +0900
-categories: Exceptions
+category: Exceptions
+tags: [InApp, Google]
 ---
 
 #1.Exceptions

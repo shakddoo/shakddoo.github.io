@@ -2,7 +2,8 @@
 layout: post
 title:  "Android ndk, unicode to utf-8 or utf-8 to unicode"
 date:   2016-02-01 21:34:00 +0900
-categories: c++
+category: c++
+tags: [ndk, utf-8, unicode]
 ---
 #1. utf-8 to unicode
 I referenced [wiki](http://en.wikipedia.org/wiki/UTF-8)

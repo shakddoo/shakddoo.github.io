@@ -2,7 +2,8 @@
 layout: post
 title:  "android.os.NetworkOnMainThreadException"
 date:   2016-01-18 22:00:00 +0900
-categories: Exceptions
+category: Exceptions
+tags: [Android, Network, Thread]
 ---
 
 #1.Exceptions

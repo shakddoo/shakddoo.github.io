@@ -2,7 +2,8 @@
 layout: post
 title:  "Xcode, custom font is not registered"
 date:   2016-01-24 02:00:00 +0900
-categories: Exceptions
+category: Exceptions
+tags: [Xcode, Font]
 ---
 #1.Regist Custom font, Two ways
 - info.plist -> add font name to [Fonts provided by application] category

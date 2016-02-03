@@ -2,7 +2,8 @@
 layout: post
 title:  "Selenium, protected mode settings are not the same for all zones"
 date:   2016-01-30 01:00:00 +0900
-categories: Exceptions
+category: Exceptions
+tags: [Explore, Protected mode]
 ---
 
 #1.Exceptions

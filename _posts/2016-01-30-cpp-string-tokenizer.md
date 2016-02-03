@@ -2,7 +2,8 @@
 layout: post
 title:  "c++ string tokenizer implement"
 date:   2016-01-30 02:38:00 +0900
-categories: c++
+category: c++
+tags: [c++, StringTokenize]
 ---
 #1. Implement
 This code use string class instead of strtok included in <string.h>.
