@@ -21,7 +21,7 @@ class Character
 protected :
     virtual void attack()
     {
-        printf(“kick and punch”);
+        printf("kick and punch");
     }
 }
 
@@ -30,7 +30,7 @@ class Knight : public Character
 public :
     void attack() override
     {
-        printf(“swing sword”);
+        printf("swing sword");
     }
 }
 
@@ -39,17 +39,18 @@ class Magician : public Character
 public :
     void attack() override
     {
-        printf(“fire fire-ball”);
+        printf("fire fire-ball");
     }
 }
 ```
+
 If Some Characters(Knight, Thief etc..) have same attack() method **"kick and punch"**, you would copy Knight’s attack() method to other Character classes.
 Copy make overlapped and inflexible codes. And if you have to change **“kick and punch”** to **"kick and kick"**, you would change all Characters that defined attack() method to “kick and punch”.
 
 
 To solve this problem, use Strategy Design-Pattern. 
 
-```cpp
+``` cpp
 
 class Behavior
 {
@@ -60,7 +61,7 @@ class AttackBehavior : public Behavior
 {
     void do() override
     {
-        printf(“kick and punch”);
+        printf("kick and punch");
     }
 }
 
@@ -68,7 +69,7 @@ class MagicBehavior : public Behavior
 {
     void do() override
     {
-        printf(“fire fire-ball”);
+        printf("fire fire-ball");
     }
 }
 
