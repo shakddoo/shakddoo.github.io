@@ -9,7 +9,7 @@ tags: [c++]
 
 In Games, number to currency-expression like, 1000000 -> 1,000,000
 
-```
+``` cpp
 
 std::string Util::numberToCurrency(int num)
 {
