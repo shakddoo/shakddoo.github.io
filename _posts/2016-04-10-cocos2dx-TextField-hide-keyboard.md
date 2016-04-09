@@ -7,12 +7,14 @@ tags: [c++,TextField]
 ---
 
 Below code don't work to hide keyboard
+
 ``` cpp
 _textField->setDetachWithIME(true);      //(X)
 ```
 
 
 So I use other way like
+
 ``` cpp
 static_cast<CCTextFieldTTF*>(_textField->getVirtualRenderer())->detachWithIME();    //(O)
 ```
