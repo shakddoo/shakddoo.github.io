@@ -6,8 +6,8 @@ category: Exceptions
 tags: [InApp, Server]
 ---
 
-#1.Exceptions
+###1.Exceptions
 - InApp Server Test result is **Not Found**
 
-#2. Solutions
+###2. Solutions
 This error code is happend when access_token is old.Please refresh access_token.

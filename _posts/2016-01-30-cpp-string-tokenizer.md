@@ -5,7 +5,7 @@ date:   2016-01-30 02:38:00 +0900
 category: c++
 tags: [c++, StringTokenize]
 ---
-#1. Implement
+###1. Implement
 This code use string class instead of strtok included in <string.h>.
 
 ``` cpp
@@ -31,7 +31,7 @@ void StringTokenize(const string& str, vector<string>& tokens, const string& del
 - vector<string>& tokens : split sub strings will be pushed. This parameter is reference type, so It have to be not null.
 
 
-#2. Using Example
+###2. Using Example
 
 
 ``` cpp

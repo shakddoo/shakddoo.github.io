@@ -6,10 +6,10 @@ category: Exceptions
 tags: [ios keyboard, cocos2d-x, TextField]
 ---
 
-#1. Problem
+###1. Problem
 cocos2d-x TextField,  keyboard is not shown on iOS Simulator.
 
-#2. Solution
+###2. Solution
 - iOS Simulator -> Hardware -> Keyboard
 - Uncheck “Connect Hardware Keyboard”
 

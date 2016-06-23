@@ -6,12 +6,12 @@ category: Exceptions
 tags: [InApp, Google]
 ---
 
-#1.Exceptions
-- google api accessNotConfigured 403error 
+###1.Exceptions
+- google api accessNotConfigured 403error
 - The project id used to call the Google Play Developer API has not been linked in the Google Play Developer Console.
 
 ``` json
-{ "errors": [ { 
+{ "errors": [ {
 "domain": "usageLimits",
 "reason": "accessNotConfigured",
 "message": "Access Not Configured"
@@ -20,13 +20,13 @@ tags: [InApp, Google]
 ```
 
 
-#2. Solutions
+###2. Solutions
 **Google Developer Console**
 
 *   **"Google Developer Console"** > "APIs & Auth" subcategory "APIs" > (api list) "Google Play Android Developer API". Set "STATUS" to "ON".
 *   "APIs & auth" subcategory "Credentials" > "Create new Client ID". Choose "Service account" and create the id.
 *   You should get a P12 key from the browser.  
-  
+
 <br/>
 
 **Google Play Developer Console**

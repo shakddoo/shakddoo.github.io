@@ -5,14 +5,14 @@ date:   2016-02-04 01:08:00 +0900
 category: c++
 tags: [Design Pattern, Strategy]
 ---
-#1. Proc
+###1. Proc
 - Reduce overlapping programming
-- Fiexible 
+- Fiexible
 
-#2. Using case
+###2. Using case
 - When you have to override a method of Super-Class, don’t override the method. Make to Interface (like AttackBehavior)
 
-#3. Example Code
+###3. Example Code
 Below code show cons when programmer use Inheritance.
 
 ``` cpp
@@ -48,7 +48,7 @@ If Some Characters(Knight, Thief etc..) have same attack() method **"kick and pu
 Copy make overlapped and inflexible codes. And if you have to change **“kick and punch”** to **"kick and kick"**, you would change all Characters that defined attack() method to “kick and punch”.
 
 
-To solve this problem, use Strategy Design-Pattern. 
+To solve this problem, use Strategy Design-Pattern.
 
 ``` cpp
 
@@ -75,7 +75,7 @@ class MagicBehavior : public Behavior
 
 class Character
 {
-    
+
 protected :
     Behavior*    _behavior
 public:

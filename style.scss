@@ -18,7 +18,7 @@ html {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
-  
+
   @media (min-width: 38em) {
     font-size: 20px;
   }
@@ -34,7 +34,7 @@ body {
 a {
   color: #268bd2;
   text-decoration: none;
-  
+
   &:hover,
   &:focus {
     text-decoration: underline;
@@ -86,11 +86,11 @@ dd {
 ul {
   list-style: inside circle;
   padding-left: 0;
-  
+
   li {
     margin-bottom: .25rem;
   }
-  
+
   ul,
   ol {
     margin-top: .25rem;
@@ -101,11 +101,11 @@ ul {
 ol {
   list-style: inside decimal;
   padding-left: 0;
-  
+
   li {
     margin-bottom: .25rem;
   }
-  
+
   ul,
   ol {
     margin-top: .25rem;
@@ -154,7 +154,7 @@ blockquote {
   margin: 0 2rem 1rem 0;
   color: #999;
   border-left: .5rem solid #e5e5e5;
-  
+
   p:last-child {
     margin-bottom: 0;
   }
@@ -259,55 +259,58 @@ tbody tr:nth-child(odd) th {
 }
 
 .container {
+  float:center;
+  // border: 1px solid #e5e5e5;
   max-width: 50rem;
-  padding: 2rem 1.5rem;
   margin-left:  auto;
   margin-right: auto;
-  
-  @media (min-width: 38rem){
-    padding: 5rem 1rem;
-  }
+  padding-top: 2rem;
+  padding-left: 2rem;
+  // @media (min-width: 38rem){
+  //   padding: 5rem 1rem;
+  // }
 }
 
 .masthead {
 
   &-title {
     font-weight: 300;
-    
+    margin-bottom: 3rem;
+
     a {
       color: #333;
-      
+
       &:hover,
       &:focus {
         text-decoration: none;
       }
     }
-    
+
     span {
       color: #ddd;
     }
-    
+
   }
-  
+
   &-title--small {
     margin-bottom: .75rem;
     font-size: .75rem;
     font-weight: 600;
     text-transform: uppercase;
-    
+
     a {
       color: #333;
-      
+
       &:hover,
       &:focus {
         text-decoration: none;
       }
     }
   }
-  
+
   .masthead-nav {
     margin-bottom: 2rem;
-    
+
     a {
       color: #aaa;
       font-weight: 300;
@@ -350,10 +353,10 @@ tbody tr:nth-child(odd) th {
 .list {
   &-post-title {
     margin-bottom: .25rem;
-    
+
     a {
       color: #333;
-      
+
       &:hover,
       &:focus {
         text-decoration: none;
@@ -435,3 +438,23 @@ tbody tr:nth-child(odd) th {
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
+#side_bar
+{
+  width: 13rem;
+  height: auto;
+  float:left;
+  // border: 1px solid #e5e5e5;
+  padding-top: 0.0rem;
+  padding-left: 2.0rem;
+}
+
+.category_li
+{
+  font-size: 1.0rem;
+  color:#aaaaaa;
+}
+
+.content-list
+{
+  float:left;
+}

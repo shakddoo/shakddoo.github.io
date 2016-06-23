@@ -5,7 +5,7 @@ date:   2016-02-01 21:34:00 +0900
 category: c++
 tags: [ndk, utf-8, unicode]
 ---
-#1. utf-8 to unicode
+###1. utf-8 to unicode
 I referenced [wiki](http://en.wikipedia.org/wiki/UTF-8)
 
 ``` cpp
@@ -53,7 +53,7 @@ wstring Utf8ToUnicode(const string& source_str)
 If you use window, string has byte order(like EF BB BF). This case you have to remove byte order.
 
 
-#2. unicode to utf-8
+###2. unicode to utf-8
 It don't support 4byte
 
 

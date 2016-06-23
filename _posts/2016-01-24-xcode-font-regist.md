@@ -5,7 +5,7 @@ date:   2016-01-24 02:00:00 +0900
 category: Exceptions
 tags: [Xcode, Font]
 ---
-#1.Regist Custom font, Two ways
+###1.Regist Custom font, Two ways
 - info.plist -> add font name to [Fonts provided by application] category
 - use below code
 
@@ -36,5 +36,5 @@ void registFont(const string& file_name)
 ```
 
 
-#3.Xcode Bug
+###2.Xcode Bug
 - Sometimes a font is not registed, although you follow above step. At this times, remove  the font’s reference, and then add the reference again.

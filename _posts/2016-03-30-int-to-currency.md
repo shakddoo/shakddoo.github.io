@@ -2,7 +2,7 @@
 layout: post
 title:  "int to currency string"
 date:   2016-03-30 00:12:00 +0900
-category: ios
+category: c++
 tags: [c++]
 ---
 
